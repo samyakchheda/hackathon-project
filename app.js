@@ -81,4 +81,8 @@ app.get('/get_events', async (req, res) => {
     res.status(200).json({ event_organized: user.event_organized });
 });
 
+app.listen(8080, () => {
+    console.log(`Example app listening on port8080`)
+  })
+
 module.exports = app;
