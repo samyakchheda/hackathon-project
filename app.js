@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json()); // To handle JSON requests
 
 // Connect to MongoDB Atlas
-mongoose.connect("mongodb+srv://samyakchheda000:xWsnDwwMEKzIZ6Kn@cluster0.4ajiu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+mongoose.connect("mongodb+srv://samyakchheda000:xWsnDwwMEKzIZ6Kn@cluster0.4ajiu.mongodb.net/User", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
